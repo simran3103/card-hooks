@@ -1,0 +1,17 @@
+@mixin pad {
+    padding: 0.3rem;
+}
+
+.searchBox {
+    @include pad
+}
+
+.searchBtn {
+    @include pad;
+    border: 1px solid black
+}
+
+.searchCard {
+    display: flex;
+    flex-wrap: wrap;
+}
